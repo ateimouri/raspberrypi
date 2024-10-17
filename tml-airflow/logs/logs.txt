@@ -12223,3 +12223,4 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [INFO 2024-10-17_16:52:39] {'name': ['Project with slug "myawesometmlsolution-3f10" already exists.']}
 [INFO 2024-10-17_17:04:06] Deleting topic iot-raw-data in tml_system_step_2_kafka_createtopic_dag-projcet2-cf35.py
 [INFO 2024-10-17_17:04:10] Deleting topic iot-preprocess in tml_system_step_2_kafka_createtopic_dag-projcet2-cf35.py
+[INFO 2024-10-17_17:04:13] Deleting topic iot-preprocess2 in tml_system_step_2_kafka_createtopic_dag-projcet2-cf35.py
