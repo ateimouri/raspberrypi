@@ -12228,3 +12228,4 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [INFO 2024-10-17_17:04:19] Deleting topic prediction-data in tml_system_step_2_kafka_createtopic_dag-projcet2-cf35.py
 [INFO 2024-10-17_17:04:22] Deleting topic cisco-network-privategpt in tml_system_step_2_kafka_createtopic_dag-projcet2-cf35.py
 [INFO 2024-10-17_17:04:32] Localfile producing DAG in tml_read_LOCALFILE_step_3_kafka_producetotopic_dag-projcet2-cf35.py
+[INFO 2024-10-17_17:04:36] Preprocessing DAG in tml_system_step_4_kafka_preprocess_dag-projcet2-cf35.py
