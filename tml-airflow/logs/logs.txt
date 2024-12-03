@@ -12162,3 +12162,50 @@ origin	https://<personal access token hidden>@github.com/smaurice101/raspberrypi
 [INFO 2024-10-13_17:16:06] {'name': ['Project with slug "realtimeiotprocessingwithmap-3f10" already exists.']}
 [INFO 2024-10-13_17:35:25] TML Solution Studio Started: DOCKERUSERNAME=maadsdocker, GITUSERNAME=smaurice101, GITREPOURL=https://github.com/smaurice101/raspberrypi.git, AIRFLOWPORT=9000
 [INFO 2024-10-13_17:36:04] TML Solution Studio Started: DOCKERUSERNAME=maadsdocker, GITUSERNAME=smaurice101, GITREPOURL=https://github.com/smaurice101/raspberrypi.git, AIRFLOWPORT=9000
+<<<<<<< Updated upstream
+=======
+[INFO 2024-12-03_21:43:23] TML Solution Studio Started: DOCKERUSERNAME=ateimouri1@myseneca.ca, GITUSERNAME=ateimouri, GITREPOURL=https://github.com/ateimouri/raspberrypi, AIRFLOWPORT=9000
+[INFO 2024-12-03_21:43:24] TML Solution Studio: Docker Login Status: WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[INFO 2024-12-03_21:43:24] TML Solution Studio: Github Config Status: core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/smaurice101/raspberrypi.git
+remote.origin.fetch=+refs/heads/main:refs/remotes/origin/main
+remote.origin.pushurl=https://<personal access token hidden>@github.com/ateimouri/raspberrypi.git
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+[INFO 2024-12-03_21:43:24] TML Solution Studio: Github Remote Status: origin	https://github.com/smaurice101/raspberrypi.git (fetch)
+origin	https://<personal access token hidden>@github.com/ateimouri/raspberrypi.git (push)
+[INFO 2024-12-03_21:47:50] TML Solution Studio: TML Project Creation: Creating new TML project: /raspberrypi/tml-airflow/dags/tml-solutions/secproject2-cf35
+>>>>>>> Stashed changes
+[INFO 2024-12-03_21:47:52] TML Solution Studio: git pull --rebase --autostash origin main Status: From https://github.com/smaurice101/raspberrypi
+ * branch            main       -> FETCH_HEAD
+ + a1d996c...4672a0d main       -> origin/main  (forced update)
+Created autostash: 290847d
+Applying autostash resulted in conflicts.
+Your changes are safe in the stash.
+You can run "git stash pop" or "git stash drop" at any time.
+[KSuccessfully rebased and updated refs/heads/main.
+[INFO 2024-12-03_21:48:31] TML Solution Studio: Starting Git commit process for project: secproject2-cf35
+[INFO 2024-12-03_21:48:31] TML Solution Studio: git commit -a Status for project secproject2-cf35: fatal: paths 'project ...' with -a does not make sense
+[INFO 2024-12-03_21:48:32] TML Solution Studio: git push origin main Status: To https://github.com/ateimouri/raspberrypi.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/ateimouri/raspberrypi.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[INFO 2024-12-03_21:48:33] TML Solution Studio: git add . Status: 
+[INFO 2024-12-03_21:48:33] TML Solution Studio: git commit -a Status for project secproject2-cf35: fatal: paths 'project ...' with -a does not make sense
+[INFO 2024-12-03_21:48:33] TML Solution Studio: git push Status for project secproject2-cf35: To https://github.com/ateimouri/raspberrypi.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/ateimouri/raspberrypi.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
