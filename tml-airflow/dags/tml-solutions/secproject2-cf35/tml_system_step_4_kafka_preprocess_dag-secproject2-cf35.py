@@ -43,9 +43,9 @@ default_args = {
 subtopics=hostName,hostName,hostName~\
 values=inboundpackets,outboundpackets,pingStatus~\
 identifiers=inboundpackets,outboundpackets,pingStatus~\
-datetime=datapoint.updated_at~\
-msgid=datapoint.id~\
-latlong=lat:long' # <<< **** Specify your json criteria. Here is an example of a multiline json --  refer to https://tml-readthedocs.readthedocs.io/en/latest/
+datetime=lastUpdated~\
+msgid=~\
+latlong=' # <<< **** Specify your json criteria. Here is an example of a multiline json --  refer to https://tml-readthedocs.readthedocs.io/en/latest/
 }
 
 ######################################## DO NOT MODIFY BELOW #############################################
